@@ -1,0 +1,792 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectGuid>{158393B7-CCFE-0962-D4E6-7A693D4E28AA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_11;UNITY_2018_3;UNITY_2018;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_RUNTIME_PERMISSIONS;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;NET_LEGACY;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>2018.3.11f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\CameraResolution.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Aot\fsAotCompilationManager.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Aot\fsAotConfiguration.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Aot\fsAotVersionInfo.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Aot\fsIAotConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\fsArrayConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\fsDateConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\fsDictionaryConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\fsEnumConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\fsForwardConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\fsGuidConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\fsIEnumerableConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\fsKeyValuePairConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\fsNullableConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\fsPrimitiveConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\fsReflectedConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\fsTypeConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\fsWeakReferenceConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\Unity\AnimationCurve_DirectConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\Unity\Bounds_DirectConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\Unity\Gradient_DirectConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\Unity\GUIStyle_DirectConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\Unity\GUIStyleState_DirectConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\Unity\Keyframe_DirectConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\Unity\LayerMask_DirectConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\Unity\Rect_DirectConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\Unity\RectOffset_DirectConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Converters\Unity\UnityEvent_Converter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\fsBaseConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\fsConfig.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\fsContext.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\fsConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\fsConverterRegistrar.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\fsData.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\fsDirectConverter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\fsExceptions.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\fsIgnoreAttribute.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\fsISerializationCallbacks.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\fsJsonParser.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\fsJsonPrinter.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\fsMemberSerialization.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\fsObjectAttribute.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\fsObjectProcessor.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\fsPropertyAttribute.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\fsResult.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\fsSerializer.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Internal\fsCyclicReferenceManager.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Internal\fsOption.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Internal\fsPortableReflection.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Internal\fsTypeExtensions.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Internal\fsVersionedType.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Internal\fsVersionManager.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Reflection\fsMetaProperty.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Reflection\fsMetaType.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Reflection\fsReflectionUtility.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Source\Reflection\fsTypeCache.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\Providers\CustomIEnumerableProvider.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\Providers\CustomListProvider.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\Providers\CyclesProvider.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\Providers\DateProvider.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\Providers\EncodedDataProvider.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\Providers\EnumProvider.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\Providers\GuidProvider.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\Providers\IDictionaryProvider.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\Providers\KeyedCollectionProvider.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\Providers\KeyValuePairProvider.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\Providers\NumberProvider.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\Providers\OptOutProvider.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\Providers\PrivateFieldsProvider.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\Providers\PropertiesProvider.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\Providers\QueueProvider.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\Providers\StackProvider.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\Providers\TypeProvider.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\Providers\ValueHolder.cs" />
+    <Compile Include="Assets\fullserializer-master\fullserializer-master\Assets\FullSerializer\Testing\RuntimeTests\RuntimeTestRunner.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Ability.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Attributes\CardStatFieldAttribute.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Attributes\CardTargetAttribute.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Attributes\CardTypeFieldAttribute.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Attributes\EnumFieldAttribute.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Attributes\FieldAttribute.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Attributes\GameZoneFieldAttribute.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Attributes\IntFieldAttribute.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Attributes\KeywordTypeFieldAttribute.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Attributes\KeywordValueFieldAttribute.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Attributes\OrderAttribute.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Attributes\PlayerStatFieldAttribute.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Attributes\PlayerTargetAttribute.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Attributes\StringFieldAttribute.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Attributes\ValueFieldAttribute.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Card.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\CardSet.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\CardType.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\CCGKitInfo.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\ConditionOperator.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Cost.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Costs\PayResourceCost.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Deck.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\DefinitionStat.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\DestroyCardCondition.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\DestroyCardConditions\StatDestroyCardCondition.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Effect.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Effects\AddKeywordEffect.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Effects\DecreaseCardStatEffect.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Effects\DecreasePlayerStatEffect.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Effects\DrawCardsEffect.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Effects\IncreaseCardStatEffect.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Effects\IncreasePlayerStatEffect.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Effects\MoveCardEffect.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Effects\RemoveKeywordEffect.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Effects\ResetCardStatEffect.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Effects\ResetPlayerStatEffect.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Effects\SetCardStatEffect.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Effects\SetPlayerStatEffect.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\EffectSolver.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\EffectTargetCondition.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\EffectTargetConditions\CardStatCondition.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\EffectTargetConditions\CardWithKeywordCondition.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\EffectTargetConditions\CardWithoutKeywordCondition.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\EffectTargetConditions\PlayerStatCondition.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\EndGameCondition.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\EndGameConditions\CardsInZoneEndGameCondition.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\EndGameConditions\PlayerStatEndGameCondition.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\GameAction.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\GameActions\DecreasePlayerStatAction.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\GameActions\IncreasePlayerStatAction.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\GameActions\MoveCardsAction.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\GameActions\SetPlayerStatAction.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\GameActions\ShuffleCardsAction.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\GameConfiguration.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\GameManager.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\GameProperties.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\GameState.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\GameZoneType.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Keyword.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Networking\ChatHandler.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Networking\EffectSolverHandler.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Networking\GameNetworkClient.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Networking\NetCard.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Networking\NetKeyword.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Networking\NetPlayerInfo.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Networking\NetStat.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Networking\NetworkingUtils.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Networking\NetworkProtocol.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Networking\NetZone.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Networking\Player.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Networking\PlayerRegistrationHandler.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Networking\Server.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Networking\ServerHandler.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Networking\TurnSequenceHandler.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\PlayerInfo.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Properties\IntProperty.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Properties\StringProperty.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Property.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\ReflectionHelpers.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Resource.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\RuntimeCard.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\RuntimeKeyword.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\RuntimeZone.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Stat.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Target.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Trigger.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Triggers\OnCardEnteredZoneTrigger.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Triggers\OnCardLeftZoneTrigger.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Triggers\OnCardStatDecreasedTrigger.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Triggers\OnCardStatIncreasedTrigger.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Triggers\OnCardStatReachedValueTrigger.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Triggers\OnPlayerStatDecreasedTrigger.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Triggers\OnPlayerStatIncreasedTrigger.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Triggers\OnPlayerStatReachedValueTrigger.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Triggers\OnPlayerTurnEndedTrigger.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Triggers\OnPlayerTurnStartedTrigger.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Value.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Values\CardsInZoneValue.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Values\ConstantValue.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Values\PlayerStatValue.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Values\RandomValue.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Foundation\Values\TurnNumberValue.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Utils\AudioManager.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Utils\ListShuffle.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Utils\Logger.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Utils\ObjectPool.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Utils\SoundFX.cs" />
+    <Compile Include="Assets\MainCCG\Core\Scripts\Utils\StringUtils.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Effects\CreateCreatureEffect.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\BaseScene.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\BoardCreature.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\BoardSpell.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\CardListItem.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\CardView.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\ChatDialog.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\CombatAnimation.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\CreateDeckButton.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\CreatureCardView.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\DeckBuilderCard.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\DeckBuilderScene.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\DeckButton.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\EndTurnButton.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\FightTargetingArrow.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\GameListItem.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\GameScene.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\GameUI.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\HandCard.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\HomeScene.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\LobbyScene.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\MenuButton.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\MenuButtonNoGlow.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\OpponentTargetingArrow.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\PlayerAvatar.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\PlayerBox.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\PlayerManaBar.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\Popup.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\PopupChat.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\PopupLoading.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\PopupLogin.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\PopupOneButton.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\PopupPassword.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\PopupSignup.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\PopupTurnStart.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\PopupTwoButtons.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\SpellCardView.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\SpellTargetingArrow.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Game\TargetingArrow.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Networking\CombatHandler.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Networking\DemoAIPlayer.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Networking\DemoHumanPlayer.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Networking\DemoNetworkClient.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Networking\DemoPlayer.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Networking\DemoServer.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Networking\GameNetworkManager.cs" />
+    <Compile Include="Assets\MainCCG\Demo\Scripts\Networking\PlayCardHandler.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
+    <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\AsteroidsGame.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Game\Asteroid.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Game\AsteroidsGameManager.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Game\Bullet.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Game\PlayerOverviewPanel.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Game\Spaceship.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Lobby\LobbyMainPanel.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Lobby\LobbyTopPanel.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Lobby\PlayerListEntry.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Lobby\RoomListEntry.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Scripts\DemoHubManager.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Scripts\ToDemoHubButton.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\Block.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\Cluster.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\IngameControlPanel.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\Noise.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\ProceduralController.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\WorldGenerator.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\Bezier.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\BezierControlPointMode.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\BezierCurve.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\BezierSpline.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\Line.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\SplinePosition.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\SplineWalker.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\PlayerControl.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\SlotLanes.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\SlotRacerSplashScreen.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\CameraWork.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\Launcher.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\LoaderAnime.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\PlayerAnimatorManager.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\PlayerManager.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\PlayerNameInputField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\PlayerUI.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\ConnectToRegionUIForm.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\CreateRoomUiForm.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\LoadLevelUIForm.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\SetRoomCustomPropertyUIForm.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\UserIdUiForm.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\PunCockpit.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\AutoSyncSceneToggle.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\BackgroundTimeOutField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\CrcCheckToggle.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\DocLinkButton.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\GameVersionField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\Generic\BoolInputField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\Generic\IntInputField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\Generic\StringInputField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\Generic\ToggleExpand.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\LayoutElementMatchSize.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\NickNameField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\OnlineDocButton.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\SendRateField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\SendRateOnSerializeField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Controllers\PlayerDetailsController.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\InfosPanelPlaceholder.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\FriendListCell.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\FriendListView.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\PlayerListCell.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\PlayerListView.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\PropertyCell.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\RegionListCell.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\RegionListView.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\RoomListCell.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\RoomListView.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\PropertyFields\UserIdField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\AppVersionProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\BestRegionInPrefsProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CloudRegionProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CountOfPlayersInRoomProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CountOfPlayersOnMasterProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CountOfPlayersProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CountOfRoomsProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomAutoCleanupProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomEmptyRoomTtlProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomExpectedUsersProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomIsOfflineProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomIsOpenProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomIsVisibleProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomMasterClientIdProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomMaxPlayersProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomNameProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomPlayerCountProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomPlayerTtlProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomPropertiesListedInLobbyProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\GameVersionProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\IsConnectedAndReadyProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\IsConnectedProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\OfflineModeProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\PingProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\PropertyListenerBase.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\ServerAddressProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\ServerProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ScoreHelper.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ThirdParty\PunCockpitEmbed.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Scripts\DocLinks.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Copyrights.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.xml" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Photon\PhotonLibs\release_history.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\MainCCG\Demo\Fonts\FontsLicense.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\NotoSans - License.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\eurof_tt.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\MainCCG\Demo\Resources\DefaultDeck.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\MainCCG\Third-PartyNotice.txt" />
+    <None Include="Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\3dText.shader" />
+    <None Include="Assets\fullserializer-master\fullserializer-master\ProjectSettings\ProjectVersion.txt" />
+    <None Include="Assets\Photon\PhotonUnityNetworking\readme.txt" />
+    <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>D:/Unity Projects/BackUp Project B4Valyria/BattleForValyria/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>D:/Unity Projects/BackUp Project B4Valyria/BattleForValyria/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Editor">
+      <HintPath>D:/Unity Projects/BackUp Project B4Valyria/BattleForValyria/Library/ScriptAssemblies/Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="XiaomiSupport">
+      <HintPath>D:/Unity Projects/BackUp Project B4Valyria/BattleForValyria/Library/ScriptAssemblies/XiaomiSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>D:/Unity Projects/BackUp Project B4Valyria/BattleForValyria/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.BaselibModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FileSystemHttpModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTrackingModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TimelineModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Locator">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>D:/Unity Projects/BackUp Project B4Valyria/BattleForValyria/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>D:/Unity Projects/BackUp Project B4Valyria/BattleForValyria/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>D:/Unity Projects/BackUp Project B4Valyria/BattleForValyria/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-2017.3-Editor">
+      <HintPath>D:/Unity Projects/BackUp Project B4Valyria/BattleForValyria/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-2017.3-Runtime">
+      <HintPath>D:/Unity Projects/BackUp Project B4Valyria/BattleForValyria/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>D:/Unity Projects/BackUp Project B4Valyria/BattleForValyria/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>D:/Unity Projects/BackUp Project B4Valyria/BattleForValyria/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>D:/Unity Projects/BackUp Project B4Valyria/BattleForValyria/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="ChannelPurchase">
+      <HintPath>D:/Unity Projects/BackUp Project B4Valyria/BattleForValyria/Library/PackageCache/com.unity.xiaomi@1.0.3/ChannelPurchase.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityStore">
+      <HintPath>D:/Unity Projects/BackUp Project B4Valyria/BattleForValyria/Library/PackageCache/com.unity.xiaomi@1.0.3/UnityStore.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
+      <Project>{164DF6EB-6A82-D024-7033-934C30DE55EE}</Project>
+      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
+      <Project>{D06F4BA8-8137-2DB0-5F69-0C920800F432}</Project>
+      <Name>PhotonUnityNetworking.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonWebSocket.csproj">
+      <Project>{905479BC-D16D-3A83-2476-BC965F704C12}</Project>
+      <Name>PhotonWebSocket</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonRealtime.csproj">
+      <Project>{D1B22517-3488-D189-8756-1841FAD19366}</Project>
+      <Name>PhotonRealtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.csproj">
+      <Project>{DCF12C64-AD3B-1A3C-5371-37A83678F9E8}</Project>
+      <Name>PhotonUnityNetworking</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonChat.csproj">
+      <Project>{E1429D5D-2A89-7143-BFF0-FD1399A87215}</Project>
+      <Name>PhotonChat</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
+      <Project>{A82274F7-6226-8974-A42B-5F8366D970EE}</Project>
+      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
+      <Project>{1BDDCDC4-5E4C-C065-D172-249F2F1A860F}</Project>
+      <Name>PhotonUnityNetworking.Editor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

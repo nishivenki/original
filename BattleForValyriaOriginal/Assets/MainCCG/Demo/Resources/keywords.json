@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Subtypes",
+        "values": [
+            {
+                "value": "Impetus"
+            },
+            {
+                "value": "Provoke"
+            }
+        ],
+        "id": 0
+    },
+    {
+        "name": "Creature Effects",
+        "values": [
+            {
+                "value": "Poison"
+            }
+        ],
+        "id": 1
+    }
+]

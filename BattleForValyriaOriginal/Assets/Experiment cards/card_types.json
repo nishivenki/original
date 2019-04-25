@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Creature_Meele",
+        "properties": [],
+        "stats": [],
+        "destroyConditions": [],
+        "moveAfterTriggeringEffect": false,
+        "zoneId": 0,
+        "id": 0
+    }
+]

@@ -1,0 +1,9 @@
+{
+    "turnDuration": 0,
+    "minDeckSize": 0,
+    "maxDeckSize": 0,
+    "gameStartActions": [],
+    "turnStartActions": [],
+    "turnEndActions": [],
+    "endGameConditions": []
+}

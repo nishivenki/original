@@ -1,0 +1,44 @@
+[
+    {
+        "name": null,
+        "cards": [
+            {
+                "cardTypeId": 0,
+                "name": "Swamp Snake",
+                "costs": [
+                    {
+                        "statId": 0,
+                        "value": 1,
+                        "$type": "CCGKit.PayResourceCost"
+                    }
+                ],
+                "properties": [],
+                "stats": [],
+                "keywords": [],
+                "abilities": [
+                    {
+                        "trigger": {
+                            "zoneId": 0,
+                            "$type": "CCGKit.OnCardEnteredZoneTrigger"
+                        },
+                        "name": "poisonous",
+                        "type": "Triggered",
+                        "effect": {
+                            "keywordTypeId": 0,
+                            "keywordValueId": 0,
+                            "gameZoneId": 0,
+                            "cardTypeId": 0,
+                            "$type": "CCGKit.AddKeywordEffect"
+                        },
+                        "target": {
+                            "conditions": [],
+                            "$type": "CCGKit.PlayerTarget"
+                        },
+                        "$type": "CCGKit.TriggeredAbility"
+                    }
+                ],
+                "id": 0
+            }
+        ]
+    }
+]

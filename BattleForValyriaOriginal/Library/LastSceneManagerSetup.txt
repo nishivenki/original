@@ -1,0 +1,10 @@
+sceneSetups:
+- path: Assets/MainCCG/Demo/Scenes/Game.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/MainCCG/Demo/Scenes/Home.unity
+  isLoaded: 1
+  isActive: 1
+- path: Assets/MainCCG/Demo/Scenes/DeckBuilder.unity
+  isLoaded: 0
+  isActive: 0
